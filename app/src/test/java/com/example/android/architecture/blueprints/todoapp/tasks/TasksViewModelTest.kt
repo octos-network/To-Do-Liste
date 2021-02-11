@@ -43,7 +43,7 @@ class TasksViewModelTest {
         }
 
         @Test
-        fun getTasksAddViewVisible() {
+        fun setFilterAllTasks_tasksAddViewVisible() {
 
             // When the filter type is ALL_TASKS
             tasksViewModel.setFiltering(TasksFilterType.ALL_TASKS)
