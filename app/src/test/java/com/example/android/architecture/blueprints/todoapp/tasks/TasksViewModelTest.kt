@@ -24,6 +24,7 @@ class TasksViewModelTest {
         @get:Rule
         var instantExecutorRule = InstantTaskExecutorRule()
 
+        // GIVEN a function which set up your ViewModel back to factory settings
         @Before
         fun setupViewModel() {
             tasksViewModel = TasksViewModel(ApplicationProvider.getApplicationContext())
